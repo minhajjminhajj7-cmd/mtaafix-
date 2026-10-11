@@ -1,0 +1,19 @@
+{
+  "name": "MtaaFix",
+  "short_name": "MtaaFix",
+  "icons": [
+    {
+      "src": "/mtaafix-tab-icon-v10.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/mtaafix-tab-icon-v10-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#167663",
+  "background_color": "#fbfaf6",
+  "display": "standalone"
+}

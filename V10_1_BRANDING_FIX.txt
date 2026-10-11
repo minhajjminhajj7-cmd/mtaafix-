@@ -1,0 +1,4 @@
+MtaaFix V10.1 Branding Fix
+- Replaces any browser-tab React/Vite icon reference with the MtaaFix icon.
+- Uses unique favicon filenames to avoid old localhost favicon cache collisions.
+- Keeps the V10 backend, database, mobile workflow, analytics and operations unchanged.

@@ -1,0 +1,22 @@
+MtaaFix V10 - 95% Completion Build
+Date: 2026-10-11
+
+- Locked simplified Citizen -> Department -> Resolution workflow.
+- Added analytics backend and Super Admin/Department analytics page.
+- Added overdue/SLA monitoring and department performance metrics.
+- Rebuilt live incident map with filters and hotspot watch.
+- Added Super Admin manual incident, reroute, priority, archive, restore and safe delete controls.
+- Added Department CRUD and department portal-account management.
+- Added Report Category and Problem Type CRUD.
+- Added smart nearby duplicate confirmation on mobile plus explicit attach/new decision.
+- Completed image/video evidence paths for citizen, progress and resolution evidence.
+- Added department progress uploads and mandatory resolution evidence workflow.
+- Added Super Admin follow-up messages delivered as department notifications.
+- Improved mobile tracking with department contact/responsibility information.
+- Added iOS/Android camera, microphone and location permissions.
+- Added operational database indexes.
+- Added scripts/verify-v10.sh automated API verification.
+- Added scripts/verify-v10-workflow.sh full temporary incident workflow verification.
+- Kept MtaaFix favicon/application branding from V9.
+
+Database: keep the existing database. Do NOT drop it. Run backend/src/db/20261011_v10_full_upgrade.sql; it safely applies/re-applies the required idempotent migrations.
